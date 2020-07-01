@@ -1,0 +1,4 @@
+automation/scratch_framework/resources/ExtentReporterNg.class
+automation/scratch_framework/pageObjects/QAClickHomePage.class
+automation/scratch_framework/resources/Base.class
+automation/scratch_framework/pageObjects/QAClickLoginPage.class

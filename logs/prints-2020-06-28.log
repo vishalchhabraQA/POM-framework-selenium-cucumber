@@ -1,0 +1,5 @@
+18:52:28.157 [main] INFO  automation.scratch_framework.resources.Base - navigated to http://qaclickacademy.com/
+18:52:28.997 [main] INFO  automation.scratch_framework.resources.Base - navigated to http://qaclickacademy.com/
+18:55:00.458 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - driver is initialized!
+18:55:00.577 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - window is maximized!
+18:55:12.723 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - navigated to http://qaclickacademy.com/

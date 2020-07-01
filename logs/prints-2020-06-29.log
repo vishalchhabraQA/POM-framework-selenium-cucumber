@@ -1,0 +1,5 @@
+16:48:35.522 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - Navigation bar is present!
+16:48:37.967 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - navigated to http://qaclickacademy.com/
+16:48:38.009 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - SuccessFully validated test message!
+16:48:38.088 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - Navigation bar is present!
+16:48:50.955 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - driver is initialized!
