@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)" parallel="tests">
     <classes>
-      <class name="automation.scratch_framework.HomePage">
+      <class name="TestRunnerPackage.TestRunner">
         <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="basePageNavigation" invocation-numbers="1 2"/>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- automation.scratch_framework.HomePage -->
+      </class> <!-- TestRunnerPackage.TestRunner -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

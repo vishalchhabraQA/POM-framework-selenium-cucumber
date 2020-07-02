@@ -66,11 +66,11 @@ public class HomePage extends Base { //Inheriting from base class
 	public Object[][] getData() {
 		
 		Object[][] data = new Object[3][2];
-		data[0][0]="abc@gmail.com";
+		data[0][0]="ab";
 		data[0][1]="1234567890";
-		data[1][0]="abc1@gmail.com";
+		data[1][0]="abc";
 		data[1][1]="123";
-		data[2][0]="abc2@gmail.com";
+		data[2][0]="abcd";
 		data[2][1]="890";
 		
 		return data;

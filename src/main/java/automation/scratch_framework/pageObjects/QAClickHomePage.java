@@ -17,9 +17,10 @@ public class QAClickHomePage {
 	}
 	
 	/* accessible only in this class only as private and it is recommended */
-	private By loginLink = By.xpath("//a[contains(@href,'/users/sign_in')]");
+	private By loginLink = By.xpath("//a[contains(@href,'https://rahulshettyacademy.com/sign_in/')]");
 	private By text = By.xpath("//div[@class='text-center']/h2");
 	private By navBar = By.xpath("//ul[@class='nav navbar-nav navbar-right']");
+	private By noThanksBtn = By.xpath("//button[text()='NO THANKS']");
 	
 	public QAClickLoginPage getLoginLink() {
 		driver.findElement(loginLink).click();
@@ -36,4 +37,11 @@ public class QAClickHomePage {
 		return driver.findElement(navBar);
 	}
 	
+	public int getNoThanksBtnCount() {
+		return driver.findElements(noThanksBtn).size();
+	}
+	
+	public WebElement getNoThanksBtn() {
+		return driver.findElement(navBar);
+	}
 }

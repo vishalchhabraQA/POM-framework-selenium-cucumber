@@ -15,6 +15,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Base {
 
@@ -33,11 +35,17 @@ public class Base {
 		FileInputStream fis = new FileInputStream(projectPath + "/src/main/java/automation/scratch_framework/resources/data.properties");
 		p.load(fis);
 		
-		String browserName = System.getProperty("browserName"); //get property from maven command
-//		String browserName = p.getProperty("browserName"); //get property from .properties file
+//		String browserName = System.getProperty("browserName"); //get property from maven command
+		String browserName = p.getProperty("browserName"); //get property from .properties file
 		
 		if(browserName.contains("chrome")) { //always use equalsIgnoreCase when comparing .properties file value
+			DesiredCapabilities ch=DesiredCapabilities.chrome();
+			ch.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
+			ch.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+
+			
 			ChromeOptions co = new ChromeOptions();
+			co.merge(ch);
 			if(browserName.contains("headless")) {
 				co.addArguments("--headless");
 			}

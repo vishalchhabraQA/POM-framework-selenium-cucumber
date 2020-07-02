@@ -1,0 +1,5 @@
+15:35:34.763 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - SuccessFully validated test message!
+15:35:34.838 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - Navigation bar is present!
+15:35:37.693 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - navigated to http://qaclickacademy.com/
+15:35:37.800 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - SuccessFully validated test message!
+15:35:37.858 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - Navigation bar is present!

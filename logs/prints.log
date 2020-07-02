@@ -1,2 +1,3 @@
-16:48:50.963 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - window is maximized!
-16:48:53.471 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - navigated to http://qaclickacademy.com/
+15:35:39.723 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - navigated to http://qaclickacademy.com/
+15:35:39.779 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - SuccessFully validated test message!
+15:35:39.874 [TestNG-tests-1] INFO  automation.scratch_framework.resources.Base - Navigation bar is present!
